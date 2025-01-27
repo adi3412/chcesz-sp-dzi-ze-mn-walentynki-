@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walentynki</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 100px;
+      }
+      .button {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: 5xp;
+        cursor: pointer;
+      }
+  </style>
+</head>
+<body>
+
+  <h1>Czy chcesz spędzić ze mną Walentynki?<h1>
+  <button> class="button" id="yesButton">Tak</button>
+  <button> class=button" id="noButton">Nie</button>
+
+    <div id="response" style="margin-top: 20px;"></div>
+
+    <script>
+      document.getElementById('yesButton').onclick = function() {
+        document.getElementById('response').innerHTML = '<h2>Ciesze się! </h2>';
+      };
+
+      document.getElementyById('noButton').onclick = function() {
+        document.gerElementyById('response').innerHTML = '<h2>Szkoda Może innym razem?.</h2>';
+        {;
+    </script>
+
+  </body>
+  </html>
